@@ -23,6 +23,10 @@
 
         <!-- Add your site or application content here -->
         <div class="nav">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                </div>
+            </nav>
         </div>
         <h3>Hello world! This is HTML5 Boilerplate.</h3>
         <!-- End Site -->
