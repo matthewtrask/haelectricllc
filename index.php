@@ -3,9 +3,9 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>HA Electric LLC | Commerical &amp; Residential Electric Work</title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
 
         <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
 
@@ -22,11 +22,14 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
+        <div class="nav">
+        </div>
         <h3>Hello world! This is HTML5 Boilerplate.</h3>
-
+        <!-- End Site -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
         <script src="js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
