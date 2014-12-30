@@ -22,13 +22,53 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <div class="nav">
-            <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <img src="img/haelectriclogo.png">
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <h2 class="text-center" id="phone">Call Us: 678-527-8292</h2>
+                </div>
+            </div>
+        </div>
+
+        <div id="nav">
+            <nav class="navbar navbar-default navbar-top" id="navbar">
                 <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better modible display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-toggle">
+                            <span class="sr-only">Toggle Navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="#" class="navbar-brand" id="home">Home<!-- <img src="" alt="ha electric llc"> --></a>
+                    </div>
+                    <!-- Nav Links -->
+                    <div class="collapse navbar-collapse" id="navbar-toggle">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Electrical Services</a></li>
+                            <li><a href="#">Led Lighting</a></li>
+                            <li><a href="#">Restaurant/Bars</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
         </div>
-        <h3>Hello world! This is HTML5 Boilerplate.</h3>
+        <div id="body">
+            <div class="jumbotron">
+                <div class="container">
+                    <img src="img/banner.png">
+                </div>
+            </div>
+
+            
+        </div>
         <!-- End Site -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>

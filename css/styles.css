@@ -17,4 +17,40 @@ html, body {
 	font-family: 'Roboto', sans-serif;
 	background-color: #8D8D8D;
 	color: white;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+main#body {
+	padding-top: 70px;
+}
+
+/**************************
+
+NAVBAR STYLES
+
+**************************/
+#navbar {
+	background-color: #00213a;
+}
+
+.navbar-default div.navbar-top
+{
+    border-top:none;
+    box-shadow:none;
+}
+
+.navbar-collapse{
+border-top:0px !important;
+ box-shadow:none;
+}
+
+#logo {
+	height: 75%;
+	width: 75%;
+}
+
+#navbar a {
+	color: white;
+	font-weight: 700;
 }
