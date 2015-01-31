@@ -7,7 +7,7 @@ $pageTitle = "Commerical &amp; Residential Electric Work"; ?>
         <meta charset="utf-8">
         <meta author="Matt Trask">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title><?php echo $siteTitle; ?> | <?php echo $pageTitle ?></title>
+        <title><?php echo $siteTitle; ?> | <?php echo $pageTitle; ?></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
 

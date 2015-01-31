@@ -1,1 +1,2 @@
 <?php
+$pageTitle = "Contact Us"; ?>
