@@ -21,8 +21,8 @@ html, body {
 	margin-left: auto;
 }
 
-main#body {
-	padding-top: 70px;
+#body {
+	padding-top: 120px;
 }
 
 /**************************
@@ -30,3 +30,7 @@ main#body {
 NAVBAR STYLES
 
 **************************/
+
+#logo {
+	margin-top: -20px;
+}

@@ -1,4 +1,4 @@
-<?php $siteTitle = "HA Electric LLC"; 
+<?php  
 $pageTitle = "Commerical &amp; Residential Electric Work"; ?>
 
 <?php include('includes/head.php'); ?>
