@@ -19,10 +19,13 @@ html, body {
 	color: white;
 	margin-right: auto;
 	margin-left: auto;
+	height: 100%;
 }
 
 #body {
+	height: 100%;
 	padding-top: 140px;
+	font-family: 'Oxygen', sans-serif;
 }
 
 /**************************
@@ -51,6 +54,7 @@ MAIN BODY
 
 #main {
 	margin-top: 140px;
+	height: 100%;
 }
 
 /*************************
@@ -63,7 +67,9 @@ FOOTER
 	height: 50px;
 	width: 100%;
 	background-color: #fff;
-	margin-top: 30px;
+	margin-top: 160px;
+	color: #000;
+	position: absolute;
 }
 
 

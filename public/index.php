@@ -18,10 +18,13 @@ $pageTitle = "Commerical &amp; Residential Electric Work"; ?>
             </div>
         </main>
 
-        <footer id="footer">
+        <footer id="footer" class="navbar-bottom">
             <div class="container">
                 <div class="row">
-
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                        <p>HA Electric LLC</p>
+                        <p>Phone</p>
+                    </div>
                 </div>
             </div>
         </footer>
