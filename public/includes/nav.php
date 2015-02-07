@@ -1,4 +1,4 @@
-<nav role="navigation" class="navbar navbar-default navbar-fixed-top" id="navbar">
+	<nav role="navigation" class="navbar navbar-default navbar-static-top" id="navbar">
 	    <div class="container-fluid">
 	        <!-- Brand and toggle get grouped for better mobile display -->
 	        <div class="navbar-header" id="header">
@@ -20,3 +20,6 @@
 	        </div>
 	    </div>
 	</nav>
+	<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8" id="phone">
+		<h2 class="pull-right"><i class="fa fa-phone" id="phoneImg"></i>Call us at: 678-527-8292</h2>
+	</div>

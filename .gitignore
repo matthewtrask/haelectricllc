@@ -19,4 +19,4 @@ sftp-config.json
 
 # files for project
 .vagrant/*
-vagrantfile
+vagrantfile1

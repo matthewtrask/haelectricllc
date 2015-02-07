@@ -10,7 +10,22 @@ $pageTitle = "Commerical &amp; Residential Electric Work"; ?>
         <?php include('includes/nav.php'); ?>
 
         <!-- Add your site or application content here -->
-        
+        <main id="main">
+            <div class="container">
+                <div class="row">
+                    <img src="img/homepage.jpg" alt="" class="img-responsive center-block">
+                </div>
+            </div>
+        </main>
+
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+
+                </div>
+            </div>
+        </footer>
+
         <!-- End Site -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
