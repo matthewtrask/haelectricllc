@@ -24,7 +24,7 @@ include('includes/contact.php');
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 				<h3>Contact Form</h3>
-				<form>
+				<form action="includes/contact.php" method="POST">
 					<div class="form-group">
 						<label for="Name"><i class="fa fa-user"></i>Name:</label>
 						<input type="Name" class="form-control" id="inputName" placeholder="Name">
@@ -46,6 +46,7 @@ include('includes/contact.php');
 			</div>
 		</div>
 	</div>
+
 </main>
 
 <?php
