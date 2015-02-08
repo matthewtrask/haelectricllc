@@ -28,6 +28,9 @@ html, body {
 	font-family: 'Oxygen', sans-serif;
 }
 
+.fa {
+	margin-right: 10px;
+}
 /**************************
 
 NAVBAR STYLES
@@ -42,9 +45,6 @@ NAVBAR STYLES
 	margin-left: 390px;
 }
 
-#phoneImg {
-	margin-right: 10px;
-}
 
 /*************************
 

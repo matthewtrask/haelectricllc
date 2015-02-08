@@ -18,16 +18,7 @@ $pageTitle = "Commerical &amp; Residential Electric Work"; ?>
             </div>
         </main>
 
-        <footer id="footer" class="navbar-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                        <p>HA Electric LLC</p>
-                        <p>Phone</p>
-                    </div>
-                </div>
-            </div>
-        </footer>
+        <?php include('includes/footer.php'); ?>
 
         <!-- End Site -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>

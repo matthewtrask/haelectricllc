@@ -15,6 +15,7 @@
 	            <ul class="nav navbar-nav navbar-right">
 	            	<li><a href="service.php">Services</a></li>
 	            	<li><a href="gallery.php">Gallery</a></li>
+					<li><a href="testimonials.php">Testimonials</a></li>
 	            	<li><a href="contact.php">Contact Us</a></li>
 	            </ul>
 	        </div>
