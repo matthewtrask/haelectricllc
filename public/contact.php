@@ -2,6 +2,7 @@
 $pageTitle = "Contact Us"; 
 include('includes/head.php'); 
 include('includes/nav.php');
+include('includes/contact.php');
 ?>
 
 <main id="body">
