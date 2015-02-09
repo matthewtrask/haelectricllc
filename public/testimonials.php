@@ -42,10 +42,12 @@ include('includes/comments.php');
 
     <div class="container">
         <div class="row">
-            <h4>Please feel free to <a href="mailto:adarezek@haelectricllc.com?subject=Testimonial">email</a> your comments to us!</h4>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h4>Please feel free to <a href="mailto:adarezek@haelectricllc.com?subject=Testimonial">email</a> your comments to us!</h4>
+
+            </div>
         </div>
     </div>
-
 </main>
 
 

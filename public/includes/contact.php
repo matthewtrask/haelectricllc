@@ -6,7 +6,16 @@
  * Time: 7:23 PM
  */
 
-$Name = $_POST['Name'];
-$Phone = $_POST['Phone'];
-$Email = $_POST['Email'];
-$Message = $_POST['Message'];
+if (isset($name)) {
+    $name = $_POST['Name'];
+}
+if (isset($phone)) {
+    $phone = $_POST['Phone'];
+}
+if (isset($email)) {
+    $email = $_POST['Email'];
+}
+if (isset($message)) {
+    $message = $_POST['Message'];
+}
+$to = "Adam@haelectricllc.com";

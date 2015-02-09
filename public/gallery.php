@@ -3,9 +3,17 @@ $pageTitle = "Gallery";
 include('includes/head.php'); 
 include('includes/nav.php');?>
 
-<main id="body" style="margin-top: 40px;">
+<main id="body">
 	
-	
+	<div class="container">
+
+        <div class="row">
+
+            <
+
+        </div>
+
+    </div>
 
 
 </main>

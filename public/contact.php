@@ -24,24 +24,24 @@ include('includes/contact.php');
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 				<h3>Contact Form</h3>
-				<form action="includes/contact.php" method="POST">
+				<form action="contact.php?thankyou" method="POST">
 					<div class="form-group">
 						<label for="Name"><i class="fa fa-user"></i>Name:</label>
-						<input type="Name" class="form-control" id="inputName" placeholder="Name">
+						<input name="Name" type="Name" class="form-control" id="Name" placeholder="Name" required>
 					</div>
 					<div class="form-group">
 						<label for="Phone"><i class="fa fa-phone"></i> Phone Number:</label>
-						<input type="Phone" class="form-control" id="inputPhone" placeholder="Phone">
+						<input type="Phone" class="form-control" id="Phone" placeholder="Phone" required>
 					</div>
 					<div class="form-group">
 						<label for="Email"><i class="fa fa-envelope"></i>Email:</label>
-						<input type="Email" class="form-control" id="inputEmail" placeholder="Email">
+						<input type="Email" class="form-control" id="Email" placeholder="Email" required>
 					</div>
 					<div class="form-group">
 						<label for="Message"><i class="fa fa-pencil"></i>Message:</label>
-						<textarea col="4" class="form-control" placeholder="Message"></textarea>
+						<textarea col="4" class="form-control" placeholder="Message"></textarea required>
 					</div>
-					<button class="btn btn-lg btn-block btn-primary" type="button">Submit</button>
+					<input class="btn btn-lg btn-block btn-primary" type="submit"></input>
 				</form>
 			</div>
 		</div>
@@ -52,3 +52,8 @@ include('includes/contact.php');
 <?php
 include('includes/footer.php');
 ?>
+
+<script type="text/javascript">
+
+
+</script>
