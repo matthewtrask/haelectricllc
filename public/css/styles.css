@@ -75,5 +75,20 @@ FOOTER
 	position: absolute;
 }
 
+/*************************
 
+GALLERY
 
+*************************/
+
+#pics img {
+	min-height: 320px;
+	max-height: 320px;
+	min-width: 300px;
+	max-width: 300px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
