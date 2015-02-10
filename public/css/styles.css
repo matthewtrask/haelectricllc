@@ -37,7 +37,7 @@ NAVBAR STYLES
 
 **************************/
 
-#logo {
+#main_logo {
 	margin-top: -20px;
 }
 
@@ -47,6 +47,11 @@ NAVBAR STYLES
 
 #socialmedia ul li{
 	list-style: none;
+}
+
+#smaller_logo {
+	height: 150px;
+	border-radius: 35%;
 }
 
 /*************************

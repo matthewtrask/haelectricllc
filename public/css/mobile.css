@@ -1,0 +1,32 @@
+/**************************
+
+
+    MOBILE STYLES
+
+**************************/
+
+
+@media (min-width: 891px) {
+
+    #smaller_logo {
+        display: none;
+    }
+}
+
+@media (max-width: 840px) {
+
+    #main_logo{
+        display: none;
+    }
+
+    #title {
+        display: none
+    }
+}
+
+@media (max-width: 560px) {
+
+    #smaller_logo {
+        display: none;
+    }
+}

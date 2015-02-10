@@ -19,6 +19,7 @@
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
         <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700,100' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+        <link href="css/mobile.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="css/styles.css" type="text/css" rel="stylesheet">
         
         <!-- Scripts -->

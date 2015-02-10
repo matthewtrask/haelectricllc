@@ -8,7 +8,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a href="index.php" class="navbar-brand"><img id="logo" src="img/haelectriclogo.png"><!-- Off Broadway Dance Studio--></a>
+				<a href="index.php" class="navbar-brand"><img id="main_logo" src="img/haelectriclogo.png" class="img-responsive"><img src="img/simplelogo.jpg" class="img-responsive" id="smaller_logo"><h2 id="title">HA Electric LLC</h2></a>
 			</div>
 			<!-- Collection of nav links and other content for toggling -->
 			<div id="navbarCollapse" class="collapse navbar-collapse navbar-right">
@@ -28,7 +28,8 @@
 
 				</div>
 			</div>
-			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pull-right" id="phone">
+			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 pull-right" id="phone">
+				<h2 class="text-center" id="title">HA Electric LLC</h2>
 				<h2 class="pull-right"><i class="fa fa-phone" id="phoneImg"></i>Call us at: 678-527-8292</h2>
 			</div>
 		</div>
