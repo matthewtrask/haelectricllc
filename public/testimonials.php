@@ -13,7 +13,7 @@ include('includes/comments.php');
 ?>
 
 
-<main id="main">
+<main id="body">
 
     <div class="container">
         <div class="row">

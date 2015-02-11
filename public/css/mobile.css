@@ -11,6 +11,11 @@
     #smaller_logo {
         display: none;
     }
+
+    #title {
+        display: none;
+    }
+
 }
 
 @media (max-width: 840px) {

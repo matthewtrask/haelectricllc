@@ -22,6 +22,10 @@ include('includes/nav.php');?>
             </div>
         </div>
 
+    </div>
+
+    <div class="container">
+
         <div class="row" id="pics">
             <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                 <img src="img/tabletops.jpg" class="img-responsive center-block" id="myLightbox" data-featherlight="img/tabletops.jpg">
@@ -36,6 +40,10 @@ include('includes/nav.php');?>
                 <img src="img/bluetables.jpg" class="img-responsive center-block" id="myLightbox" data-fatherLight="img/bluetables.jpg">
             </div>
         </div>
+
+    </div>
+
+    <div class="container">
 
         <div class="row" id="pics">
             <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
@@ -55,3 +63,5 @@ include('includes/nav.php');?>
     </div>
 
 </main>
+
+<?php include('includes/footer.php'); ?>
