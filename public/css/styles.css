@@ -23,9 +23,9 @@ html, body {
 }
 
 #body {
-	height: 100%;
 	padding-top: 140px;
 	font-family: 'Oxygen', sans-serif;
+	margin-bottom: 50px;
 }
 
 .fa {
@@ -36,6 +36,24 @@ html, body {
 NAVBAR STYLES
 
 **************************/
+.nav, .container-fluid{
+	background-color: #8D8D8D;
+	border: 0px #8D8D8D;
+}
+
+#navbar {
+	border-bottom: 0px;
+}
+
+#navbar a {
+	margin-right: 30px;
+	color: #FFF;
+}
+
+#navbar a:hover {
+	background-color: #FFF;
+	color: #8d8d8d;
+}
 
 #main_logo {
 	margin-top: -20px;
@@ -60,10 +78,6 @@ MAIN BODY
 
 *************************/
 
-#body {
-	/*margin-top: 40px;*/
-	height: 150%;
-}
 
 /*************************
 
@@ -72,12 +86,26 @@ FOOTER
 *************************/
 
 #footer {
-	height: 75px;
+	height: 100px;
 	width: 100%;
 	background-color: #fff;
 	color: #000;
-	position: absolute;
+
 }
+
+ul#smIcons {
+	margin-top: 20px;
+}
+
+#smIcons li {
+	list-style: none;
+}
+
+#footerLinks li {
+	display: inline-block;
+	list-style: none;
+}
+
 
 /*************************
 
