@@ -1,37 +1,107 @@
-/**************************
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
 
 
-    MOBILE STYLES
-
-**************************/
 
 
-@media (min-width: 891px) {
+    /*==========  Mobile First Method  ==========*/
 
-    #smaller_logo {
-        display: none;
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+        #smaller_logo {
+            display: none;
+        }   
+
+        #navbar {
+            background-color: white;
+        }
+
+        #phone {
+            margin-right: 0px;
+        }
     }
 
-    #title {
-        display: none;
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+
     }
 
-}
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
 
-@media (max-width: 840px) {
-
-    #main_logo{
-        display: none;
     }
 
-    #title {
-        display: none
-    }
-}
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+        #smaller_logo {
+            display: none;
+        }
 
-@media (max-width: 560px) {
-
-    #smaller_logo {
-        display: none;
+        #title {
+            display: none;
+        }
     }
-}
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+        #smaller_logo {
+            display: none;
+        }
+
+        #title {
+            display: none;
+        }
+    }
+
+
+
+    /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+        #main_logo {
+            display: none;
+        }
+
+        #title {
+            display: none;
+        }
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+        #main_logo {
+            display: none;
+        }
+
+        #title {
+            display: none;
+        }
+
+        #header {
+            background-color: #FFF;
+        }
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+        #smaller_logo {
+            display: none;
+        }
+
+        #header {
+            background-color: #FFF;
+        }
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        
+    }

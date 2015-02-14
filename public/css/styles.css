@@ -23,7 +23,7 @@ html, body {
 }
 
 #body {
-	padding-top: 140px;
+	padding-top: 40px;
 	font-family: 'Oxygen', sans-serif;
 	margin-bottom: 50px;
 }
@@ -72,6 +72,13 @@ NAVBAR STYLES
 	border-radius: 35%;
 }
 
+#SocialIcons ul li {
+	display: inline;
+}
+
+#SocialIcons img:last-child {
+	margin-left: 10px;
+}
 /*************************
 
 MAIN BODY 

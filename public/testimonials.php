@@ -25,15 +25,15 @@ include('includes/comments.php');
 
     <div class="container">
         <div class="row">
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                 <p><?php
                         foreach($comments as $comment){
                             echo $comment . "<br /><br /><hr />";
                         }
                     ?></p>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img src="img/pool.jpg" alt="" class="img-responive center-block"  height="130%" width="110%">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <img src="img/pool.jpg" alt="" class="img-responive center-block"  height="130%" width="100%">
             </div>
         </div>
     </div>
