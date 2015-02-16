@@ -64,4 +64,7 @@ include('includes/nav.php');?>
 
 </main>
 
-<?php include('includes/footer.php'); ?>
+<?php 
+include('includes/footer.php'); 
+include('includes/bottom.php');
+?>

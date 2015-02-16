@@ -51,9 +51,5 @@ include('includes/contact.php');
 
 <?php
 include('includes/footer.php');
+include('includes/bottom.php');
 ?>
-
-<script type="text/javascript">
-
-
-</script>

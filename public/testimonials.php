@@ -63,4 +63,5 @@ include('includes/comments.php');
 
 <?php
 include('includes/footer.php');
+include('includes/bottom.php');
 ?>
