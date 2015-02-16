@@ -55,10 +55,6 @@ NAVBAR STYLES
 	color: #8d8d8d;
 }
 
-ul#dropdown {
-	background-color: #8D8D8D;
-	color: #fff;
-}
 
 #main_logo {
 	margin-top: -20px;
@@ -81,14 +77,39 @@ ul#dropdown {
 	display: inline;
 }
 
+#SocialIcons li {
+	display: inline;
+}
+
 #SocialIcons img:last-child {
 	margin-left: 10px;
 }
+
+#facebook img:hover {
+	background-color: #3B5998;
+}
+
+#twitter img:hover {
+	background-color: #4099ff
+}
+
+#yelp img:hover {
+	background-color: #c41200;
+}
+
+#instagram img:hover {
+	background-color: #3f729b;
+}
+
 /*************************
 
-MAIN BODY 
+INDEX PAGE
 
 *************************/
+
+#aboutus p {
+	font-size: 1.8rem;
+}
 
 
 /*************************
