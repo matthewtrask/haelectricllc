@@ -174,13 +174,18 @@ SERVICE
 	text-decoration: none;
 	color: #8d8d8d;
 	background-color: white;
+    
 }
 
-#Electric {
+#ServicesTop a .fa-chevron-down:hover {
+	transform: rotate( -180deg );            
+}
+
+#Electric, #LED, #Bar {
 	display: none;
 }
 
-#ee li {
+#ee li, #ledlights li, #foh li, #boh li {
 	list-style: none;
 }
 
@@ -188,29 +193,31 @@ SERVICE
 	color: yellow;
 }
 
-#box1, #box2 {
-	height: 1000px;
-/*	background-color: red;*/
-}
-
 #Electric h2 {
 	color: #7df9ff;
-
 }
 
 #LED h2 {
-	color: #ff0000 ;
+	color: #EEC900;
 }
 
-.fa-bolt {
+#Bar h2 {
+	color: #ff3300;
+}
+
+#LED .fa-bolt {
 	color: red;
 }
 
-#box1 {
-	height: 1000px;
-	background-color: yellow;
+.fa-wrench {
+	margin-left: 10px;
+	color: #0000ff;
 }
-#box2 {
-	height: 1000px;
-	background-color: green;
+
+.fa-plug {
+	color: #00ff00;
 }
+
+
+
+

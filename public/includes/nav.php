@@ -13,10 +13,10 @@
 			<!-- Collection of nav links and other content for toggling -->
 			<div id="navbarCollapse" class="collapse navbar-collapse navbar-right">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="service.php">Services</a></li>
-					<li><a href="gallery.php">Gallery</a></li>
-					<li><a href="testimonials.php">Testimonials</a></li>
-					<li><a href="contact.php">Contact Us</a></li>
+					<li><a href="service.php"><i class="fa fa-bolt"></i>Services</a></li>
+					<li><a href="gallery.php"><i class="fa fa-th"></i>Gallery</a></li>
+					<li><a href="testimonials.php"><i class="fa fa-comment"></i>Testimonials</a></li>
+					<li><a href="contact.php"><i class="fa fa-envelope-o"></i>Contact Us</a></li>
 				</ul>
 			</div>
 		</div>
