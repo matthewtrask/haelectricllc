@@ -1,5 +1,5 @@
 <?php $siteTitle = "HA Electric LLC"; ?>
-<!doctype html>
+<!doctype html5>
 <html class="no-js" lang="">
     <head>
         <meta charset="utf-8">
@@ -28,4 +28,6 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
         <script src="//cdn.rawgit.com/noelboss/featherlight/1.0.4/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBuETsf3EeVod_t1eW1kVySHXvR_ggOeE"></script>
+
     </head>

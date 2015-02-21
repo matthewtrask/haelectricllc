@@ -47,6 +47,7 @@ NAVBAR STYLES
 
 #navbar a {
 	margin-right: 30px;
+	font-size: 2rem;
 	color: #FFF;
 }
 
@@ -139,6 +140,10 @@ ul#smIcons {
 	list-style: none;
 }
 
+#cc {
+	color: #000032;
+}
+
 
 /*************************
 
@@ -218,6 +223,10 @@ SERVICE
 	color: #00ff00;
 }
 
-
+#map-canvas {
+        height: 100%;
+        margin: 0px;
+        padding: 0px
+      }
 
 

@@ -24,7 +24,6 @@ $pageTitle = "Commerical &amp; Residential Electric Work"; ?>
                         <p>HA Electric LLC is committed to meeting all our customers’ electric needs with the highest quality products and service. We specialize in residential electrical services, and we are dedicated to setting the standard for quality and service in electrical work.</p>
                         <p>At HA Electric LLC we are an experienced and highly recommended electrical contractor serving the electrical needs of residential and commercial properties. From new wiring to electrical maintenance and troubleshooting. We’re specialists in the service and installation of electrical systems, and have a comprehensive knowledge of new technologies, as well as systems that have been installed for years.</p>
                         <p>Our mission and priority is to satisfy our customers with our rich experience, knowledge, creativity, education, and great personalities.</p>
-                        <p class="text-center"><b>Call us now to schedule a consultation! 678-527-8292</b></p>
                     </div>
                 </div>
             </div>
