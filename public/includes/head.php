@@ -4,7 +4,10 @@
     <head>
         <meta charset="utf-8">
         <meta author="Matt Trask">
+        <meta robots="Index,Follow">
+        <meta content="LED Electric Data Low-Voltage Voltage Electric Electrical Bar Restaurant Electrical Contracting Estimates Atlanta Alpharetta Ceiling Fan Landscape Lighting Pools Repairs">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="canonical" href="http://haelectricllc.com/gallery/">
         <title><?php echo $pageTitle; ?> | <?php echo $siteTitle; ?></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">

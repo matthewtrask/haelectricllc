@@ -33,7 +33,7 @@ include('includes/comments.php');
                     ?></p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <img src="img/pool.jpg" alt="" class="img-responive center-block"  height="130%" width="100%">
+                <img src="img/pool.jpg" alt="" class="img-responive center-block"  height="100%" width="100%">
             </div>
         </div>
     </div>

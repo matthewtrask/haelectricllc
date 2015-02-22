@@ -1,0 +1,23 @@
+notes.txt
+
+data / low voltage - check email for details
+ 
+change picture on testimonials
+
+new pictures for services page
+
+add lightbox to service pages
+
+slider on service page
+
+slider on services page...onclick hide slider, show specific picture to the service
+
+google images low voltage search images
+
+change led to blue and center
+
+led icon to the circle
+
+center restaurant 
+
+add google analytics
