@@ -27,7 +27,7 @@
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 pull-right" id="phone">
 				<h2 class="text-right" id="Smtitle">HA Electric LLC</h2>
-				<h2 class="text-right"><i class="fa fa-phone" id="phoneImg"></i>Call us at: 678-527-8292</h2>
+				<h2 class="text-right" id="mainPhone"><i class="fa fa-phone" id="phoneImg"></i>Call us at: 678-527-8292</h2>
 				<ul id="SocialIcons" class="text-right">
 					<li id="facebook"><a href="facebook.com/haelectricllc"><img src="img/facebook-64.png"></a></li>
 					<li id="twitter"><a href="#"><img src="img/twitter-64.png"></a></li>
