@@ -26,16 +26,16 @@ include('includes/nav.php');
 	            	</ul>
 	            </div>-->
 	            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-	            	<p class="text-center"><span class="text-center"><a href="#Electric" id="clickElectric"><i class="fa fa-chevron-down"></i>Electrical Wiring</a></span></p>
+	            	<p class="text-center"><span class="text-center"><a href="#Electric" id="click"><i class="fa fa-chevron-down"></i>Electrical Wiring</a></span></p>
 	            </div>
 	            <div class="col-xs-3 col-sm3 col-md-3 col-lg-3">
-	            	<p class="text-center"><span><a href="#LED" id="clickLED"><i class="fa fa-chevron-down"></i>LED Lighting</a></span></p>
+	            	<p class="text-center"><span><a href="#LED" id="click"><i class="fa fa-chevron-down"></i>LED Lighting</a></span></p>
 	            </div>
                 <div class="col-xs-3 col-sm3 col-md-3 col-lg-3">
-                    <p class="text-center"><span><a href="#Data" id="clickData"><i class="fa fa-chevron-down"></i>Data/Low Voltage</a></span></p>
+                    <p class="text-center"><span><a href="#Data" id="click"><i class="fa fa-chevron-down"></i>Data/Low Voltage</a></span></p>
                 </div>
 	            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-	            	<p class="text-center"><span><a href="#Bar" id="clickBar"><i class="fa fa-chevron-down"></i>Bar/Restaurant</a></span></p>
+	            	<p class="text-center"><span><a href="#Bar" id="click"><i class="fa fa-chevron-down"></i>Bar/Restaurant</a></span></p>
 	            </div>
                 <hr />
             </div>
@@ -47,7 +47,7 @@ include('includes/nav.php');
 
     </div>
 
-    <div class="container" id="Electric">
+    <div class="container box" id="Electric">
     	<div id="box">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -90,11 +90,11 @@ include('includes/nav.php');
     	<a href="#ServicesTop" color="grey"><i class="fa fa-chevron-up"></i>Back to the Top</a>
     </div>
 
-    <div class="container" id="LED">
+    <div class="container box" id="LED">
         <div class="box">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <h2 class="text-left"><i class="fa fa-circle-o-notch"></i>LED Lighting</h2><hr />
+                    <h2 class="text-center"><i class="fa fa-circle-o-notch"></i>LED Lighting</h2><hr />
                     <h4 class="text-left">HA ELECTRIC LLC can design, install, service and maintain LED lighting. We install from LED bulbs to LED strips and LED slim light panels. We can custom build LED slim light panels for your bar top, furniture, shelves, walls, floors and ceiling.</h4>
                     <h4 class="text-left">We create ambient, art and non seen inviting feature for your bar, restaurant, hotel, office, lobby or basement. Our team is creative, skilled and has an eye for art. We like to play with colors and lights and we always like to create something new for our customers.</h4>
                     <div class="row">
@@ -120,7 +120,7 @@ include('includes/nav.php');
     	<a href="#ServicesTop" color="grey"><i class="fa fa-chevron-up"></i>Back To The Top</a>
     </div>
 
-    <div class="container" id="Bar">
+    <div class="container box" id="Bar">
     	<div id="box">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -186,11 +186,18 @@ include('includes/nav.php');
 </main>
 
 <script>
-$(document).ready(function (){
-    ("#box").hide();
-});
-
-
+function showonlyone(thechosenone) {
+     $('#click').each(function(index) {
+          if ($(this).attr("id") == thechosenone) {
+               $(this).show(200);
+          }
+          else {
+               $(this).hide(600);
+          }
+     });
+}
+</script>
+<script>
 // $("#clickElectric").click(function(){
 //     $("#Electric").toggle();
 // });

@@ -191,6 +191,7 @@ SERVICE
 	text-decoration: none;
 	color: red;
 	background-color: white;
+	width: 115%;
     
 }
 
@@ -198,9 +199,9 @@ SERVICE
 	transform: rotate( -180deg );            
 }
 
-/*#Electric, #LED, #Bar {
+#Electric, #LED, #Bar {
 	display: none;
-}*/
+}
 
 #ee li, #ledlights li, #foh li, #boh li {
 	list-style: none;
@@ -213,14 +214,19 @@ SERVICE
 #Electric h2 {
 	color: red;
 	background-color: white;
+	border-radius: 50px;
 }
 
 #LED h2 {
-	color: #EEC900;
+	color: #7DF9FF;
+	background-color: white;
+	border-radius: 50px;
 }
 
 #Bar h2 {
 	color: #ff3300;
+	background-color: white;
+	border-radius: 50px;
 }
 
 #LED .fa-bolt {
