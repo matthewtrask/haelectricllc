@@ -42,7 +42,7 @@
 	}
 
 	if(!empty($errName) && !empty($errPhone) && !empty($errEmail) && !empty($errMessage)) {
-		if(mail($from, $to, $subject, $body)) {
+		if(mail($to, $form, $subject, $body)) {
 			$results='<div class="alert alert-success">Thank You! We will be in touch</div>';
 		} else {
 			$results='<div class="alert alert-danger">Sorry there was an error sending your message, please again later!</div>';

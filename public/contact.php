@@ -2,8 +2,50 @@
 $pageTitle = "Contact Us"; 
 include('includes/head.php');
 include('includes/nav.php');
-include('includes/contact_action.php');
 
+	if(isset($_POST["Submit"])) {
+		$name = $_POST['Name'];
+		$phone = $_POST['Phone'];
+		$email = $_POST['Email'];
+		$message = $_POST['Message'];
+
+		$to = "dustin638@gmail.com";
+		$from = $email; 
+		$subject = "Electrical work inquiry";
+
+		$output_form = false;
+
+		//Email message
+		$body = "From: $name \n Phone: $phone \n Email: $email \n Message: $message \n";
+
+
+		//Check if fields have been set
+		if (empty($_POST['Name'])) {
+			$errName = "Please enter your name";
+		}
+
+		if (empty($_POST['Phone'])) {
+			$errPhone = "Please enter your phone number";
+		}
+
+		if (empty($_POST['Email'])) {
+			$errEmail = "Please enter your email";
+		}
+
+		if (empty($_POST['Message'])) {
+			$errMessage = "Please enter a message";
+		}
+	}
+
+	else {
+		$output_form = true;
+	}
+
+	if(empty($errName) && empty($errPhone) && empty($errEmail) && empty($errMessage)) {
+		mail($to, $from, $subject, $body); 
+		} else {
+			$results='<div class="alert alert-danger">Sorry there was an error sending your message, please again later!</div>';
+		}
 ?>
 
 <main id="body">
@@ -22,11 +64,15 @@ include('includes/contact_action.php');
 				<div id="map-canvas">
 				</div>
 			</div>
+
+			<?php
+				if($output_form) {
+			?>
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 
 				<h3>Contact Form</h3>
 
-				<form action="contact_action.php" method="POST" role="form">
+				<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" role="form">
 
 					<div class="form-group">
 						<label for="Name"><i class="fa fa-user"></i>Name:</label>
@@ -55,6 +101,10 @@ include('includes/contact_action.php');
 					</div>
 
 				</form>
+
+				<?php
+				}
+				?>
 			</div>
 		</div>
 	</div>

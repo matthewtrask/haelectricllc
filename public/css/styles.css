@@ -198,9 +198,9 @@ SERVICE
 	transform: rotate( -180deg );            
 }
 
-#Electric, #LED, #Bar {
+/*#Electric, #LED, #Bar {
 	display: none;
-}
+}*/
 
 #ee li, #ledlights li, #foh li, #boh li {
 	list-style: none;

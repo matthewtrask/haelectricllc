@@ -124,7 +124,7 @@ include('includes/nav.php');
     	<div id="box">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <h2 class="text-left"><i class="fa fa-building-o"></i></i>Restaurant &amp; Bar</h2><hr />
+                    <h2 class="text-center"><i class="fa fa-building-o"></i></i>Restaurant &amp; Bar</h2><hr />
                     <h4 class="text-left">HA ELECTRIC LLC has been helping restaurant and bar owners and operators with electrical needs for past 10 years. We specialize in wiring, service, upgrades, maintenance and lighting design. Our electricians and service team is highly qualified to service any electrical problem.</h4>
                     <h4 class="text-left">We help our customers with kitchen appliances set ups and Lighting design. We design and install electrical controllers for hoods. HA ELECTRIC LLC installs, service, and repairs dimming panels. We can design and select lighting and ambient lighting for your bar and restaurant.</h4>
                     <div class="row">    
@@ -186,17 +186,22 @@ include('includes/nav.php');
 </main>
 
 <script>
-$("#clickElectric").click(function(){
-    $("#Electric").toggle();
+$(document).ready(function (){
+    ("#box").hide();
 });
 
-$("#clickLED").click(function(){
-    $('#LED').toggle();
-});
 
-$("#clickBar").click(function(){
-    $("#Bar").toggle();
-});
+// $("#clickElectric").click(function(){
+//     $("#Electric").toggle();
+// });
+
+// $("#clickLED").click(function(){
+//     $('#LED').toggle();
+// });
+
+// $("#clickBar").click(function(){
+//     $("#Bar").toggle();
+// });
 
 
 // $("#clickElectric").click(function(){
