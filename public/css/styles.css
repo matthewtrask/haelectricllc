@@ -218,12 +218,18 @@ SERVICE
 }
 
 #LED h2 {
-	color: #7DF9FF;
+	color: #0a14ee;
 	background-color: white;
 	border-radius: 50px;
 }
 
-#Bar h2 {
+#Data h2 {
+	color: #e1e157;
+	background-color: white;
+	border-radius: 50px;
+}
+
+#Bar h2, #BOH h3, #FOH h3{
 	color: #ff3300;
 	background-color: white;
 	border-radius: 50px;
@@ -250,6 +256,10 @@ SERVICE
 
 .text-danger {
 	font-size: 1.5rem;
+}
+
+.fa-chevron-circle-up {
+	color: red;
 }
 
 

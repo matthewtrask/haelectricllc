@@ -26,16 +26,16 @@ include('includes/nav.php');
 	            	</ul>
 	            </div>-->
 	            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-	            	<p class="text-center"><span class="text-center"><a href="#Electric" id="click"><i class="fa fa-chevron-down"></i>Electrical Wiring</a></span></p>
+	            	<p class="text-center"><span class="text-center"><a href="#Electric" id="clickElectric"><i class="fa fa-chevron-down"></i>Electrical Wiring</a></span></p>
 	            </div>
 	            <div class="col-xs-3 col-sm3 col-md-3 col-lg-3">
-	            	<p class="text-center"><span><a href="#LED" id="click"><i class="fa fa-chevron-down"></i>LED Lighting</a></span></p>
+	            	<p class="text-center"><span><a href="#LED" id="clickLED"><i class="fa fa-chevron-down"></i>LED Lighting</a></span></p>
 	            </div>
                 <div class="col-xs-3 col-sm3 col-md-3 col-lg-3">
-                    <p class="text-center"><span><a href="#Data" id="click"><i class="fa fa-chevron-down"></i>Data/Low Voltage</a></span></p>
+                    <p class="text-center"><span><a href="#Data" id="clickData"><i class="fa fa-chevron-down"></i>Data/Low Voltage</a></span></p>
                 </div>
 	            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-	            	<p class="text-center"><span><a href="#Bar" id="click"><i class="fa fa-chevron-down"></i>Bar/Restaurant</a></span></p>
+	            	<p class="text-center"><span><a href="#Bar" id="clickBar"><i class="fa fa-chevron-down"></i>Bar/Restaurant</a></span></p>
 	            </div>
                 <hr />
             </div>
@@ -47,7 +47,7 @@ include('includes/nav.php');
 
     </div>
 
-    <div class="container box" id="Electric">
+    <div class="container" id="Electric">
     	<div id="box">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -87,10 +87,12 @@ include('includes/nav.php');
                 </div>
             </div>
     	</div>
-    	<a href="#ServicesTop" color="grey"><i class="fa fa-chevron-up"></i>Back to the Top</a>
+        <div style="height: 50px">
+        </div>
+    	<a href="#ServicesTop" color="grey"><i class="fa fa-chevron-circle-up fa-4x"></i></a>
     </div>
 
-    <div class="container box" id="LED">
+    <div class="container" id="LED">
         <div class="box">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -117,10 +119,43 @@ include('includes/nav.php');
                 </div>
             </div>
         </div>
-    	<a href="#ServicesTop" color="grey"><i class="fa fa-chevron-up"></i>Back To The Top</a>
+        <div style="height: 50px">
+        </div>
+    	<a href="#ServicesTop" color="grey"><i class="fa fa-chevron-circle-up fa-4x"></i></a>
     </div>
 
-    <div class="container box" id="Bar">
+    <div class="container" id="Data">
+        <div id="box">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <h2 class="text-center"><i class="fa fa-random"></i>Data/Low Voltage</h2><hr />
+                    <h4 class="text-left">We are low-voltage licensed and offer a wide range of low-voltage services:</h4>
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                            <ul class="text-left">
+                                <li>Structured Wiring</li>
+                                <li>CAT6 Cabling</li>
+                                <li>Audio/Visual Wiring</li>
+                                <li>Cable Management</li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                            <ul class="text-left">
+                                <li>Network Infrastructure Design</li>
+                                <li>Fiber Optic Installations</li>
+                                <li>POS Station Wiring</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="height: 50px">
+        </div>
+        <a href="#ServicesTop" id="hide"><i class="fa fa-chevron-circle-up fa-4x"></i></a>
+    </div>
+
+    <div class="container" id="Bar">
     	<div id="box">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -175,7 +210,9 @@ include('includes/nav.php');
                 </div>
             </div>
     	</div>
-    	<a href="#ServicesTop" color="grey"><i class="fa fa-chevron-up"></i>Back To The Top</a>
+        <div style="height: 50px">
+        </div>
+    	<a href="#ServicesTop" id="hide"><i class="fa fa-chevron-circle-up fa-4x"></i></a>
     </div>
 
     <div style="height: 50px">
@@ -186,29 +223,21 @@ include('includes/nav.php');
 </main>
 
 <script>
-function showonlyone(thechosenone) {
-     $('#click').each(function(index) {
-          if ($(this).attr("id") == thechosenone) {
-               $(this).show(200);
-          }
-          else {
-               $(this).hide(600);
-          }
-     });
-}
-</script>
-<script>
-// $("#clickElectric").click(function(){
-//     $("#Electric").toggle();
-// });
 
-// $("#clickLED").click(function(){
-//     $('#LED').toggle();
-// });
 
-// $("#clickBar").click(function(){
-//     $("#Bar").toggle();
-// });
+
+$("#clickElectric").click(function(){
+    $("#Electric").toggle();
+});
+
+$("#clickLED").click(function(){
+    $('#LED').toggle();
+});
+
+$("#clickBar").click(function(){
+    $("#Bar").toggle();
+});
+
 
 
 // $("#clickElectric").click(function(){
