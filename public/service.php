@@ -26,7 +26,7 @@ include('includes/nav.php');
 	            	</ul>
 	            </div>-->
 	            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-	            	<p class="text-center"><span class="text-center"><a href="#Electric" id="clickElectric"><i class="fa fa-chevron-down"></i>Electrical Wiring</a></span></p>
+	            	<p class="text-center"><span><a href="#Electric" id="clickElectric"><i class="fa fa-chevron-down"></i>Electrical Wiring</a></span></p>
 	            </div>
 	            <div class="col-xs-3 col-sm3 col-md-3 col-lg-3">
 	            	<p class="text-center"><span><a href="#LED" id="clickLED"><i class="fa fa-chevron-down"></i>LED Lighting</a></span></p>
@@ -42,7 +42,7 @@ include('includes/nav.php');
             
         </div><hr />
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <img src="img/barled.jpg" class="img-responsive center-block">
+            <img src="img/barled.jpg" class="img-responsive center-block" id="mainpanel">
         </div>
 
     </div>
@@ -52,6 +52,7 @@ include('includes/nav.php');
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <h2 class="text-center"><i class="fa fa-bolt"></i>Electrical Services</h2><hr />
+                    <img>
                     <h4 class="text-left">HA Electric LLC provides a wide range of residential and commercial electrical services</h4>
                     <h4 class="text-left">If you don’t see what you are looking for here, contact us. We will be happy to answer any of your service questions.</h4>
                     <div class="row"> 
@@ -97,6 +98,7 @@ include('includes/nav.php');
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <h2 class="text-center"><i class="fa fa-circle-o-notch"></i>LED Lighting</h2><hr />
+                    <img src="img/ledpanel.jpg" class="center-block img-responsive">
                     <h4 class="text-left">HA ELECTRIC LLC can design, install, service and maintain LED lighting. We install from LED bulbs to LED strips and LED slim light panels. We can custom build LED slim light panels for your bar top, furniture, shelves, walls, floors and ceiling.</h4>
                     <h4 class="text-left">We create ambient, art and non seen inviting feature for your bar, restaurant, hotel, office, lobby or basement. Our team is creative, skilled and has an eye for art. We like to play with colors and lights and we always like to create something new for our customers.</h4>
                     <div class="row">
@@ -129,6 +131,7 @@ include('includes/nav.php');
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <h2 class="text-center"><i class="fa fa-random"></i>Data/Low Voltage</h2><hr />
+                    <img>
                     <h4 class="text-left">We are low-voltage licensed and offer a wide range of low-voltage services:</h4>
                     <div class="row">
                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
@@ -160,6 +163,7 @@ include('includes/nav.php');
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <h2 class="text-center"><i class="fa fa-building-o"></i></i>Restaurant &amp; Bar</h2><hr />
+                    <img>
                     <h4 class="text-left">HA ELECTRIC LLC has been helping restaurant and bar owners and operators with electrical needs for past 10 years. We specialize in wiring, service, upgrades, maintenance and lighting design. Our electricians and service team is highly qualified to service any electrical problem.</h4>
                     <h4 class="text-left">We help our customers with kitchen appliances set ups and Lighting design. We design and install electrical controllers for hoods. HA ELECTRIC LLC installs, service, and repairs dimming panels. We can design and select lighting and ambient lighting for your bar and restaurant.</h4>
                     <div class="row">    
@@ -234,10 +238,22 @@ $("#clickLED").click(function(){
     $('#LED').toggle();
 });
 
+$("#clickData").click(function() {
+    $('#Data').toggle();
+})
+
 $("#clickBar").click(function(){
     $("#Bar").toggle();
 });
 
+
+$(document).ready(function(){
+    //onclick of id divs
+    $("clickLED").click(function{
+        //hide the main image
+        $("#mainpanel").hide();
+    });
+});
 
 
 // $("#clickElectric").click(function(){
@@ -249,7 +265,7 @@ $("#ee li").prepend('<i class="fa fa-lightbulb-o"></i>');
 $("#ledlights li").prepend('<i class="fa fa-bolt"></i>');
 $("#boh li").append('<i class="fa fa-wrench"></i>');
 $("#foh li").prepend('<i class="fa fa-plug"></i>');
-
+$("#data li").prepend('<i class="fa fa-server"></i>');
 
 
 </script>

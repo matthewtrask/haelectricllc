@@ -9,7 +9,7 @@ include('includes/nav.php');
 		$email = $_POST['Email'];
 		$message = $_POST['Message'];
 
-		$to = "dustin638@gmail.com";
+		$to = "mjftrask@gmail.com";
 		$from = $email; 
 		$subject = "Electrical work inquiry";
 
@@ -41,8 +41,9 @@ include('includes/nav.php');
 		$output_form = true;
 	}
 
-	if(empty($errName) && empty($errPhone) && empty($errEmail) && empty($errMessage)) {
-		mail($to, $from, $subject, $body); 
+	if(empty($errName) && empty($errPhone) && empty($errEmail) && !\empty($errMessage)) {
+		mail($to, $subject, $body); 
+		$results = '<div class="alert alert-success">Your message was sent! We will contact you soon!</div>';
 		} else {
 			$results='<div class="alert alert-danger">Sorry there was an error sending your message, please again later!</div>';
 		}

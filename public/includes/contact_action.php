@@ -16,7 +16,7 @@
 
 
 		$from = $email; //Could change
-		$to = "Adam@haelectricllc.com";
+		$to = "mjftrask@gmail.com";
 		$subject = "Electrical work inquiry";
 
 		//Email message

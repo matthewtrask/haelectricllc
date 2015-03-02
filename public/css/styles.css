@@ -19,13 +19,13 @@ html, body {
 	color: white;
 	margin-right: auto;
 	margin-left: auto;
-	height: 100%;
 }
 
 #body {
 	padding-top: 40px;
 	font-family: 'Oxygen', sans-serif;
 	margin-bottom: 50px;
+
 }
 
 .fa {
@@ -127,10 +127,11 @@ FOOTER
 *************************/
 
 #footer {
-	height: 100px;
+	height: 120px;
 	width: 100%;
 	background-color: #fff;
 	color: #000;
+	margin-bottom: -100px;
 
 }
 
@@ -199,11 +200,11 @@ SERVICE
 	transform: rotate( -180deg );            
 }
 
-#Electric, #LED, #Bar {
+#Electric, #LED, #Bar, #Data {
 	display: none;
 }
 
-#ee li, #ledlights li, #foh li, #boh li {
+#ee li, #ledlights li, #foh li, #boh li, #data li {
 	list-style: none;
 }
 
@@ -224,7 +225,7 @@ SERVICE
 }
 
 #Data h2 {
-	color: #e1e157;
+	color: #cccc00;
 	background-color: white;
 	border-radius: 50px;
 }
@@ -260,6 +261,10 @@ SERVICE
 
 .fa-chevron-circle-up {
 	color: red;
+}
+
+.fa-server {
+	color: #cccc00;
 }
 
 

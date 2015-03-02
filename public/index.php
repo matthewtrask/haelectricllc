@@ -13,7 +13,7 @@ $pageTitle = "Commerical &amp; Residential Electric Work"; ?>
         <main id="body">
             <div class="container">
                 <div class="row">
-                    <img src="img/homepage.jpg" alt="" class="img-responsive center-block">
+                    <img src="img/Homepage.jpg" alt="" class="img-responsive center-block">
                 </div><hr />
             </div>
 
