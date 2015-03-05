@@ -20,3 +20,4 @@ sftp-config.json
 # files for project
 .vagrant/*
 vagrantfile1
+/test.js
