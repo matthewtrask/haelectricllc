@@ -28,13 +28,17 @@
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 pull-right" id="phone">
 				<h2 class="text-right" id="Smtitle">HA Electric LLC</h2>
 				<h2 class="text-right" id="mainPhone"><i class="fa fa-phone" id="phoneImg"></i>Call us at: 678-527-8292</h2>
-				<ul id="SocialIcons" class="text-right">
-					<li id="facebook"><a href="https://facebook.com/haelectricllc"><img src="img/facebook-64.png"></a></li>
-					<li id="twitter"><a href="https://twitter.com/haelectricllc"><img src="img/twitter-64.png"></a></li>
-					<li id="yelp"><a href="http://www.yelp.com/biz/ha-electric-llc-alpharetta"><img src="img/yelp-64.png"></a></li>
-					<li id="instagram"><a href="https://instagram.com/ha_electric_llc"><img src="img/instagram-64.png"></a> </li>
-					<!-- <li><a href="#"><img src="img/yelp.png"></a></li> -->
-				</ul>
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<ul id="SocialIcons" class="text-right">
+							<li id="facebook"><a href="https://facebook.com/haelectricllc"><img src="img/facebook-64.png"></a></li>
+							<li id="twitter"><a href="https://twitter.com/haelectricllc"><img src="img/twitter-64.png"></a></li>
+							<li id="yelp"><a href="http://www.yelp.com/biz/ha-electric-llc-alpharetta"><img src="img/yelp-64.png"></a></li>
+							<li id="instagram"><a href="https://instagram.com/ha_electric_llc"><img src="img/instagram-64.png"></a> </li>
+							<!-- <li><a href="#"><img src="img/yelp.png"></a></li> -->
+						</ul>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
