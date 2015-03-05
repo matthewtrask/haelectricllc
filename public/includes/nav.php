@@ -8,7 +8,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a href="index.php" class="navbar-brand"><img id="main_logo" src="img/haelectriclogo.png" class="img-responsive"><img src="img/simplelogo.jpg" class="img-responsive" id="smaller_logo"><h2 id="title">HA Electric LLC</h2></a>
+				<a href="index.php" class="navbar-brand"><img id="main_logo" src="img/haelectriclogo.png" class="img-responsive center-block"><img src="img/simplelogo.jpg" class="img-responsive" id="smaller_logo"><h2 id="title">HA Electric LLC</h2></a>
 			</div>
 			<!-- Collection of nav links and other content for toggling -->
 			<div id="navbarCollapse" class="collapse navbar-collapse navbar-right">
@@ -29,10 +29,10 @@
 				<h2 class="text-right" id="Smtitle">HA Electric LLC</h2>
 				<h2 class="text-right" id="mainPhone"><i class="fa fa-phone" id="phoneImg"></i>Call us at: 678-527-8292</h2>
 				<ul id="SocialIcons" class="text-right">
-					<li id="facebook"><a href="facebook.com/haelectricllc"><img src="img/facebook-64.png"></a></li>
-					<li id="twitter"><a href="#"><img src="img/twitter-64.png"></a></li>
-					<li id="yelp"><a href="#"><img src="img/yelp-64.png"></a></li>
-					<li id="instagram"><a href="#"><img src="img/instagram-64.png"></a> </li>
+					<li id="facebook"><a href="https://facebook.com/haelectricllc"><img src="img/facebook-64.png"></a></li>
+					<li id="twitter"><a href="https://twitter.com/haelectricllc"><img src="img/twitter-64.png"></a></li>
+					<li id="yelp"><a href="http://www.yelp.com/biz/ha-electric-llc-alpharetta"><img src="img/yelp-64.png"></a></li>
+					<li id="instagram"><a href="https://instagram.com/ha_electric_llc"><img src="img/instagram-64.png"></a> </li>
 					<!-- <li><a href="#"><img src="img/yelp.png"></a></li> -->
 				</ul>
 			</div>
