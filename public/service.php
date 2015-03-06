@@ -25,24 +25,23 @@ include('includes/nav.php');
 	            		<li><a href="#">Bar/Restaurant Enhancement</a></li>
 	            	</ul>
 	            </div>-->
-	            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-	            	<p class="text-center"><span id="electricClick"><a href="#Electric" id="clickElectric"><i class="fa fa-chevron-down"></i>Electrical Wiring</a></span></p>
+	            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+	            	<p class="text-center"><span id="electricClick"><a href="#Electric" id="clickElectric"><i class="fa fa-chevron-down"></i>Electrical</a></span></p>
 	            </div>
-	            <div class="col-xs-3 col-sm3 col-md-3 col-lg-3">
+	            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
 	            	<p class="text-center"><span id="ledClick"><a href="#LED" id="clickLED"><i class="fa fa-chevron-down"></i>LED Lighting</a></span></p>
 	            </div>
-                <div class="col-xs-3 col-sm3 col-md-3 col-lg-3">
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                     <p class="text-center"><span id="dataClick"><a href="#Data" id="clickData"><i class="fa fa-chevron-down"></i>Data/Low Voltage</a></span></p>
                 </div>
-	            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+	            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
 	            	<p class="text-center"><span id="barClick"><a href="#Bar" id="clickBar"><i class="fa fa-chevron-down"></i>Bar/Restaurant</a></span></p>
 	            </div>
-                <hr />
-            </div>
+            </div><hr />
             
         </div><hr />
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <img src="img/barled.jpg" class="img-responsive center-block" id="mainpanel">
+            <img src="img/barled.JPG" class="img-responsive center-block" id="mainpanel">
         </div>
 
     </div>
