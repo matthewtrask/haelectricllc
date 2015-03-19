@@ -18,7 +18,7 @@ include('includes/comments.php');
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <h2>Just a few testimonials from past clients</h2><hr />
+                <h2 id="testimonialsText">Just a few testimonials from past clients</h2><hr />
             </div>
         </div>
     </div>
@@ -33,7 +33,7 @@ include('includes/comments.php');
                     ?></p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <img src="img/pool.jpg" alt="" class="img-responive center-block"  height="100%" width="100%">
+                <img src="img/Testimonials.jpg" alt="" class="img-responive center-block"  height="100%" width="100%">
             </div>
         </div>
     </div>
