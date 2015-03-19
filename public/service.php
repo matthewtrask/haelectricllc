@@ -141,14 +141,14 @@ include('includes/nav.php');
                     <div class="row">
                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                             <ul class="text-left">
-                                <li>Structured Wiring</li>
-                                <li>CAT6 Cabling</li>
-                                <li>Audio/Visual Wiring</li>
-                                <li>Cable Management</li>
+                                <li><i class="fa fa-signal"></i>Structured Wiring</li>
+                                <li><i class="fa fa-signal"></i>CAT6 Cabling</li>
+                                <li><i class="fa fa-signal"></i>Audio/Visual Wiring</li>
+                                <li><i class="fa fa-signal"></i>Cable Management</li>
                             </ul>
                         </div>
                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                            <ul class="text-left">
+                            <ul class="text-right" id="right">
                                 <li>Network Infrastructure Design</li>
                                 <li>Fiber Optic Installations</li>
                                 <li>POS Station Wiring</li>
@@ -263,7 +263,7 @@ $("#ledlights li").prepend('<i class="fa fa-bolt"></i>');
 $("#boh li").append('<i class="fa fa-wrench"></i>');
 $("#foh li").prepend('<i class="fa fa-plug"></i>');
 $("#data li").prepend('<i class="fa fa-server"></i>');
-
+$("#right li").append('<i class="fa fa-signal"></i>');
 
 </script>
 
