@@ -13,7 +13,7 @@ $pageTitle = "Commerical &amp; Residential Electric Work"; ?>
         <main id="body">
             <div class="container">
                 <div class="row">
-                    <img src="img/Homepage.jpg" alt="" class="img-responsive center-block">
+                    <img src="img/MainElectrical.jpg" alt="" class="img-responsive center-block" height="850%" width="850%">
                 </div><hr />
             </div>
 
@@ -25,6 +25,15 @@ $pageTitle = "Commerical &amp; Residential Electric Work"; ?>
                         <p>At HA Electric LLC we are an experienced and highly recommended electrical contractor serving the electrical needs of residential and commercial properties. From new wiring to electrical maintenance and troubleshooting. We’re specialists in the service and installation of electrical systems, and have a comprehensive knowledge of new technologies, as well as systems that have been installed for years.</p>
                         <p>Our mission and priority is to satisfy our customers with our rich experience, knowledge, creativity, education, and great personalities.</p>
                     </div>
+                </div><hr />
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <h4 class="text-left"></h4>
+                    </div>
+                    <iframe width="860" height="615" src="https://www.youtube.com/embed/49NAeTLFqyM" frameborder="0" allowfullscreen class="center-block"></iframe>
                 </div>
             </div>
         </main>
