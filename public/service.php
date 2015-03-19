@@ -12,8 +12,8 @@ include('includes/nav.php');
 
         	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
-        		<h2>What can we help you illuminate?</h2>
-            	<h4>We do electrical wiring, LED lighting, as well as incorporating unique lighting into restauants and bars.</h4>
+        		<h2>How can we help?</h2>
+            	<h4>We do electrical services, low voltage and data wiring, electrical and low voltage contracting, LED lighting and restaurant &amp; bar electrical services.</h4>
             	<h4>Click on the service you are looking for to get more information.</h4>
                 <div style="height: 20px">
                 </div>
@@ -50,7 +50,7 @@ include('includes/nav.php');
     	<div id="box">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <h2 class="text-center"><i class="fa fa-bolt"></i>Electrical Services</h2><hr />
+                    <h2 class="text-center"><i class="fa fa-bolt"></i>Electrical Services - Electrical Contracting</h2><hr />
                     <img src="img/electricalservices.jpg" class="img-responsive center-block">
                     <div style="height: 20px">
                     </div>
@@ -168,7 +168,7 @@ include('includes/nav.php');
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <h2 class="text-center"><i class="fa fa-building-o"></i></i>Restaurant &amp; Bar</h2><hr />
-                    <img src="img/bbqbar.jpg" class="center-block img-responsive">
+                    <img src="img/barled.JPG" class="center-block img-responsive">
                     <div style="height: 20px">
                     </div>
                     <h4 class="text-left">HA ELECTRIC LLC has been helping restaurant and bar owners and operators with electrical needs for past 10 years. We specialize in wiring, service, upgrades, maintenance and lighting design. Our electricians and service team is highly qualified to service any electrical problem.</h4>
