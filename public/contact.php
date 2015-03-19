@@ -9,7 +9,7 @@ include('includes/nav.php');
 		$email = $_POST['Email'];
 		$message = $_POST['Message'];
 
-		$to = "mjftrask@gmail.com";
+		$to = "adamrezek@haelectricllc.com";
 		$from = $email; 
 		$subject = "Electrical work inquiry";
 
