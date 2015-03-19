@@ -21,3 +21,10 @@ sftp-config.json
 .vagrant/*
 vagrantfile1
 /test.js
+public/test.js
+
+public/hitcounter.txt
+
+public/hitcounter.txt
+
+*.txt
