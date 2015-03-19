@@ -1,6 +1,7 @@
 <div class="container">
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h2 class="text-center">We are licensed and insured.</h2>
             <h2 class="text-center">Call us now to schedule a consultation! <span id="footerPhone">678-527-8292</span></h2>
             <div class="row">    
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
