@@ -244,7 +244,7 @@ SERVICE
 	margin-left: 10px;
 }
 
-.fa-plug {
+.fa-plug, .fa-signal {
 	color: red;
 }
 
@@ -265,6 +265,12 @@ SERVICE
 .fa-server {
 	color: #cccc00;
 }
+
+/*************************
+
+TESTIMONIALS
+
+*************************/
 
 #testimonialsText  {
 	color: red;
