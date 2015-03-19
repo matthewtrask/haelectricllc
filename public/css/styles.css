@@ -240,6 +240,10 @@ SERVICE
 	color: red;
 }
 
+.fa-signal {
+	margin-left: 10px;
+}
+
 .fa-plug {
 	color: red;
 }
