@@ -30,10 +30,9 @@ $pageTitle = "Commerical &amp; Residential Electric Work"; ?>
 
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <h4 class="text-left"></h4>
-                    </div>
-                    <iframe width="860" height="615" src="https://www.youtube.com/embed/49NAeTLFqyM" frameborder="0" allowfullscreen class="center-block"></iframe>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/49NAeTLFqyM" frameborder="0" allowfullscreen class="center-block"></iframe>
+                        </div>
                 </div>
             </div>
         </main>
