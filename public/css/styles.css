@@ -31,6 +31,14 @@ html, body {
 .fa {
 	margin-right: 10px;
 }
+
+.phone a {
+	text-decoration: none;
+}
+
+.phone a:hover {
+	text-decoration: none;
+}
 /**************************
 
 NAVBAR STYLES
@@ -103,7 +111,10 @@ NAVBAR STYLES
 	background-color: #3f729b;
 }
 
-
+#mainPhone a {
+	color: white;
+	text-decoration: none;
+}
 
 /*************************
 
@@ -151,6 +162,12 @@ ul#smIcons {
 	color: red;
 	text-shadow: 0px 0px 2px rgba(255, 255, 255, 1);
 }
+
+#footPhone a:hover {
+	text-decoration: none;
+}
+
+
 
 
 /*************************
