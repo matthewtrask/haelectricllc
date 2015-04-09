@@ -283,6 +283,11 @@ SERVICE
 	color: #cccc00;
 }
 
+#carousel img {
+	height: 500px;
+	width: 900px;
+}
+
 /*************************
 
 TESTIMONIALS
