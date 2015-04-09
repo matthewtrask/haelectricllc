@@ -8,22 +8,54 @@
 // Replaces banner image with image specific to the content divs
 
 // Electric Image
-$("#electricClick").click(function () {
-	$("#mainpanel").hide();
+$("#clickElectric").click(function (){
+	$("#carousel").hide();
+});
+
+$("#clickElectric").click(function(){
+    $("#Electric").show();
 });
 
 // LED Image
-$("#ledClick").click(function (){
-    $("#mainpanel").hide();
+$("#clickLED").click(function (){
+    $("#carousel").hide();
+});
+
+$("#clickLED").click(function(){
+    $('#LED').show();
 });
 
 // Data Image
-$("#dataClick").click(function (){
-	$("#mainpanel").hide();
+$("#clickData").click(function (){
+	$("#carousel").hide();
+});
+
+$("#clickData").click(function() {
+    $('#Data').show();
 });
 
 // Bar/Restaurant Image
-$("#barClick").click(function () {
-	$("#mainpanel").hide();
+$("#clickBar").click(function (){
+	$("#carousel").hide();
 });
+
+$("#clickBar").click(function(){
+    $("#Bar").show();
+});
+
+// Make main image reappear
+$("#backToTop").click(function () {
+	$("#carousel").show();
+});
+
+$("#backToTop").click(function () {
+	$("divme.services").hide();
+});
+
+
+
+
+
+
+
 
