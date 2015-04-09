@@ -41,7 +41,7 @@ include('includes/nav.php');
 		$output_form = true;
 	}
 
-	if(empty($errName) && empty($errPhone) && empty($errEmail) && !\empty($errMessage)) {
+	if(empty($errName) && empty($errPhone) && empty($errEmail) && empty($errMessage)) {
 		mail($to, $subject, $body); 
 		$results = '<div class="alert alert-success">Your message was sent! We will contact you soon!</div>';
 		} else {
