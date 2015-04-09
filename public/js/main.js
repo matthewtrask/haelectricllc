@@ -43,19 +43,44 @@ $("#clickBar").click(function(){
     $("#Bar").show();
 });
 
-// Make main image reappear
+//Hide Electric/Show Slider
 $("#backToTop").click(function () {
 	$("#carousel").show();
 });
 
 $("#backToTop").click(function () {
-	$("divme.services").hide();
+	$("#Electric").hide();
+});
+
+//Hide LED/Show Slider
+$("#backToTop1").click(function () {
+	$("#carousel").show();
 });
 
 
+$("#backToTop1").click(function () {
+	$("#LED").hide();
+});
+
+//Hide Data/Show Slider
+$("#backToTop2").click(function () {
+	$("#carousel").show();
+});
 
 
+$("#backToTop2").click(function () {
+	$("#Data").hide();
+});
 
+//Hide Bar/Show Slider
+$("#backToTop3").click(function () {
+	$("#carousel").show();
+});
+
+
+$("#backToTop3").click(function () {
+	$("#Bar").hide();
+});
 
 
 
