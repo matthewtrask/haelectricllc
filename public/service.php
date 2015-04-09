@@ -150,7 +150,7 @@ include('includes/nav.php');
         </div>
         <div style="height: 50px">
         </div>
-    	<a href="#ServicesTop" color="grey" id="backToTop"><i class="fa fa-chevron-circle-up fa-4x"></i></a>
+    	<a href="#ServicesTop" color="grey" id="backToTop1"><i class="fa fa-chevron-circle-up fa-4x"></i></a>
     </div>
 
     <div class="container services" id="Data">
@@ -184,7 +184,7 @@ include('includes/nav.php');
         </div>
         <div style="height: 50px">
         </div>
-        <a href="#ServicesTop" id="backToTop"><i class="fa fa-chevron-circle-up fa-4x"></i></a>
+        <a href="#ServicesTop" id="backToTop2"><i class="fa fa-chevron-circle-up fa-4x"></i></a>
     </div>
 
     <div class="container services" id="Bar">
@@ -247,7 +247,7 @@ include('includes/nav.php');
     	</div>
         <div style="height: 50px">
         </div>
-    	<a href="#ServicesTop" id="backToTop"><i class="fa fa-chevron-circle-up fa-4x"></i></a>
+    	<a href="#ServicesTop" id="backToTop3"><i class="fa fa-chevron-circle-up fa-4x"></i></a>
     </div>
 
     <div style="height: 50px">
