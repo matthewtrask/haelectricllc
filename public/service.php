@@ -26,27 +26,51 @@ include('includes/nav.php');
 	            	</ul>
 	            </div>-->
 	            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-	            	<p class="text-center"><span id="electricClick"><a href="#Electric" id="clickElectric"><i class="fa fa-chevron-down"></i>Electrical</a></span></p>
+	            	<p class="text-center"><span id="clickElectric"><a href="#Electric" id="clickElectric"><i class="fa fa-chevron-down"></i>Electrical</a></span></p>
 	            </div>
 	            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-	            	<p class="text-center"><span id="ledClick"><a href="#LED" id="clickLED"><i class="fa fa-chevron-down"></i>LED Lighting</a></span></p>
+	            	<p class="text-center"><span id="clickLED"><a href="#LED" id="clickLED"><i class="fa fa-chevron-down"></i>LED Lighting</a></span></p>
 	            </div>
                 <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <p class="text-center"><span id="dataClick"><a href="#Data" id="clickData"><i class="fa fa-chevron-down"></i>Data/Low Voltage</a></span></p>
+                    <p class="text-center"><span id="clickData"><a href="#Data" id="clickData"><i class="fa fa-chevron-down"></i>Data/Low Voltage</a></span></p>
                 </div>
 	            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-	            	<p class="text-center"><span id="barClick"><a href="#Bar" id="clickBar"><i class="fa fa-chevron-down"></i>Bar/Restaurant</a></span></p>
+	            	<p class="text-center"><span id="clickBar"><a href="#Bar" id="clickBar"><i class="fa fa-chevron-down"></i>Bar/Restaurant</a></span></p>
 	            </div>
             </div><hr />
             
         </div><hr />
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <img src="img/barled.JPG" class="img-responsive center-block" id="mainpanel">
+            <!-- <img src="img/barled.JPG" class="img-responsive center-block" id="mainpanel"> -->
+            <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel" data-slide-to="1"></li>
+                    <li data-target="#carousel" data-slide-to="2"></li>
+                    <!-- <li data-target="#carousel" data-slide-to="3"></li> -->
+                </ol>
+                <!-- Wrapper for Slider -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="img/barled.JPG" alt="" class="img-responsive center-block">
+                    </div>
+                    <div class="item">
+                        <img src="img/electricwork.png" alt="" class="img-responsive center-block">
+                    </div>
+                    <div class="item">
+                        <img src="img/ledwork.png" alt="" class="img-responsive center-block">
+                    </div>
+<!--                     <div class="item">
+                        <img alt="" src="" class="img-responsive center-block">
+                    </div> -->
+                </div>
+            </div>
         </div>
 
     </div>
 
-    <div class="container" id="Electric">
+    <div class="container services" id="Electric">
     	<div id="box">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -91,10 +115,10 @@ include('includes/nav.php');
     	</div>
         <div style="height: 50px">
         </div>
-    	<a href="#ServicesTop" color="grey"><i class="fa fa-chevron-circle-up fa-4x"></i></a>
+    	<a href="#ServicesTop" color="grey" id="backToTop"><i class="fa fa-chevron-circle-up fa-4x"></i></a>
     </div>
 
-    <div class="container" id="LED">
+    <div class="container services" id="LED">
         <div class="box">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -126,10 +150,10 @@ include('includes/nav.php');
         </div>
         <div style="height: 50px">
         </div>
-    	<a href="#ServicesTop" color="grey"><i class="fa fa-chevron-circle-up fa-4x"></i></a>
+    	<a href="#ServicesTop" color="grey" id="backToTop"><i class="fa fa-chevron-circle-up fa-4x"></i></a>
     </div>
 
-    <div class="container" id="Data">
+    <div class="container services" id="Data">
         <div id="box">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -160,10 +184,10 @@ include('includes/nav.php');
         </div>
         <div style="height: 50px">
         </div>
-        <a href="#ServicesTop" id="hide"><i class="fa fa-chevron-circle-up fa-4x"></i></a>
+        <a href="#ServicesTop" id="backToTop"><i class="fa fa-chevron-circle-up fa-4x"></i></a>
     </div>
 
-    <div class="container" id="Bar">
+    <div class="container services" id="Bar">
     	<div id="box">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -223,7 +247,7 @@ include('includes/nav.php');
     	</div>
         <div style="height: 50px">
         </div>
-    	<a href="#ServicesTop" id="hide"><i class="fa fa-chevron-circle-up fa-4x"></i></a>
+    	<a href="#ServicesTop" id="backToTop"><i class="fa fa-chevron-circle-up fa-4x"></i></a>
     </div>
 
     <div style="height: 50px">
@@ -234,24 +258,30 @@ include('includes/nav.php');
 </main>
 
 <script>
+    $('.carousel').carousel({
+        interval: 3000
+    })
+</script>
+
+<script>
 
 
 
-$("#clickElectric").click(function(){
-    $("#Electric").toggle();
-});
+// $("#clickElectric").click(function(){
+//     $("#Electric").toggle();
+// });
 
-$("#clickLED").click(function(){
-    $('#LED').toggle();
-});
+// $("#clickLED").click(function(){
+//     $('#LED').toggle();
+// });
 
-$("#clickData").click(function() {
-    $('#Data').toggle();
-})
+// $("#clickData").click(function() {
+//     $('#Data').toggle();
+// })
 
-$("#clickBar").click(function(){
-    $("#Bar").toggle();
-});
+// $("#clickBar").click(function(){
+//     $("#Bar").toggle();
+// });
 
 </script>
 
