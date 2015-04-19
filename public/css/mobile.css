@@ -41,6 +41,11 @@
         #title {
             display: none;
         }
+
+        #mainImage img {
+            height: 500px;
+            width: 500px;
+        }
     }
 
     /* Large Devices, Wide Screens */

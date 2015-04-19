@@ -126,6 +126,13 @@ INDEX PAGE
 	font-size: 1.8rem;
 }
 
+img#mainImage {
+	height: 500px;
+	width: 850px;
+}
+
+#mainVideo {}
+
 
 /*************************
 
@@ -297,5 +304,9 @@ TESTIMONIALS
 #testimonialsText  {
 	color: red;
 	text-shadow: 0px 0px 2px rgba(255, 255, 255, 1);
+}
+
+#testimonialsImage img {
+	height: 400px;
 }
 
