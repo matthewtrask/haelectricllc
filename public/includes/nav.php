@@ -31,7 +31,7 @@
 				<div class="row">
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 						<ul id="SocialIcons" class="text-right">
-							<li id="facebook"><a href="https://facebook.com/haelectricllc"><img src="img/facebook-32.png"></a></li>
+							<li id="facebook"><a href="https://www.facebook.com/haelectric?ref=br_rs"><img src="img/facebook-32.png"></a></li>
 							<li id="twitter"><a href="https://twitter.com/haelectricllc"><img src="img/twitter-32.png"></a></li>
 							<li id="yelp"><a href="http://www.yelp.com/biz/ha-electric-llc-alpharetta"><img src="img/yelp-32.png"></a></li>
 							<li id="instagram"><a href="https://instagram.com/ha_electric_llc"><img src="img/instagram-32.png"></a> </li>
