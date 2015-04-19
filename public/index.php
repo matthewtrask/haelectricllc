@@ -13,7 +13,10 @@ $pageTitle = "Commerical &amp; Residential Electric Work"; ?>
         <main id="body">
             <div class="container">
                 <div class="row">
-                    <img src="img/MainElectrical.jpg" alt="" class="img-responsive center-block" height="850%" width="850%">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-bottom: 20px">
+                        <h2 class="text-center">Electrical &amp; Lighting work to perfection.</h2>
+                    </div>
+                    <img src="img/MainElectrical.jpg" alt="" class="img-responsive center-block" height="850%" width="850%" id="mainImage">
                 </div><hr />
             </div>
 
@@ -30,9 +33,16 @@ $pageTitle = "Commerical &amp; Residential Electric Work"; ?>
 
             <div class="container">
                 <div class="row">
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/49NAeTLFqyM" frameborder="0" allowfullscreen class="center-block"></iframe>
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <div class="embed-responsive embed-responsive-4by3" id="mainVideo">
+                            <iframe width="530" height="275" src="https://www.youtube.com/embed/49NAeTLFqyM" frameborder="0" allowfullscreen class="center-block"></iframe>
                         </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <h4 class="text-center">One our promotion videos.</h4>
+                        <p class="text-center">We strive to give our clients exactly what they want. We work hard, stay out of your business's way, and get the job done fast.</p>
+                        <p class="text-center">Watch the video to get a sense of what we can do for you.</p>
+                    </div>
                 </div>
             </div>
         </main>
