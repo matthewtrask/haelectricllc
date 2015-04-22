@@ -192,7 +192,7 @@ include('includes/nav.php');
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <h2 class="text-center"><i class="fa fa-building-o"></i></i>Restaurant &amp; Bar</h2><hr />
-                    <img src="img/barled.JPG" class="center-block img-responsive">
+                    <img src="img/barled1.jpg" class="center-block img-responsive">
                     <div style="height: 20px">
                     </div>
                     <h4 class="text-left">HA ELECTRIC LLC has been helping restaurant and bar owners and operators with electrical needs for past 10 years. We specialize in wiring, service, upgrades, maintenance and lighting design. Our electricians and service team is highly qualified to service any electrical problem.</h4>
