@@ -20,10 +20,16 @@
         #phone {
             margin-right: 0px;
         }
+
+
     }
 
     /* Extra Small Devices, Phones */ 
     @media only screen and (min-width : 480px) {
+        /*img#mainImage {*/
+            /*height: 400px;*/
+            /*width: 400px;*/
+        /*}*/
 
     }
 
@@ -42,10 +48,7 @@
             display: none;
         }
 
-        #mainImage img {
-            height: 500px;
-            width: 500px;
-        }
+
     }
 
     /* Large Devices, Wide Screens */
@@ -95,6 +98,11 @@
             background-color: #FFF;
         }
 
+        #splash img#mainImage {
+            height: 500px;
+            width: 500px;
+        }
+
     }
 
     /* Extra Small Devices, Phones */ 
@@ -106,9 +114,17 @@
         #header {
             background-color: #FFF;
         }
+
+        #splash img#mainImage {
+            height: 300px;
+            width: 300px;
+        }
     }
 
     /* Custom, iPhone Retina */ 
     @media only screen and (max-width : 320px) {
-        
+        #splash img#mainImage {
+            height: 200px;
+            width: 200px;
+        }
     }
