@@ -12,7 +12,7 @@ $pageTitle = "Commerical &amp; Residential Electric Work"; ?>
         <!-- Add your site or application content here -->
         <main id="body">
             <div class="container">
-                <div class="row">
+                <div class="row" id="splash">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-bottom: 20px">
                         <h2 class="text-center">Electrical &amp; Lighting work to perfection.</h2>
                     </div>
