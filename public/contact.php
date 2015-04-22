@@ -73,48 +73,26 @@ include('includes/nav.php');
 
 				<h3>Contact Form</h3>
 
-				<form action="//formspree.io/mjftrask@gmail.com" method="POST">
-					<label>Name</label>
-					<input type="text" name="name" placeholder="Name"><br />
-					<label>Email</label>
-					<input type="email" name="_replyto"><br/>
-					<input type="text"
-					<input type="submit" value="Send">
+				<form action="//formspree.io/adamrezek@haelectricllc.com" method="POST">
+					<div class="form-group">
+						<label>Name</label>
+						<input type="text" name="name" placeholder="name" class="form-control">
+					</div>
+					<div class="form-group">
+						<label>Phone</label>
+						<input type="text" name="phone" placeholder="phone" class="form-control">
+					</div>
+					<div class="form-group">
+						<label>Email</label>
+						<input type="email" name="_replyto" placeholder="email@email.com" class="form-control">
+					</div>
+					<div class="form-group">
+						<label>Message</label>
+						<textarea type="text" name="message" placeholder="message" class="form-control"></textarea>
+					</div>
+					<input class="btn btn-primary" type="submit" value="Send">
 				</form>
-<!---->
-<!--				<form action="--><?php //echo $_SERVER['PHP_SELF']; ?><!--" method="POST" role="form">-->
-<!---->
-<!--					<div class="form-group">-->
-<!--						<label for="Name"><i class="fa fa-user"></i>Name:</label>-->
-<!--						<input name="Name" type="Name" class="form-control" id="Name" placeholder="Name:" required>-->
-<!--						--><?php //echo "<p class='text-danger'>$errName</p>";?>
-<!--					</div>-->
-<!--					<div class="form-group">-->
-<!--						<label for="Phone"><i class="fa fa-phone"></i> Phone Number:</label>-->
-<!--						<input name="Phone" type="Phone" class="form-control" id="Phone" placeholder="Phone:" required>-->
-<!--						--><?php ////echo "<p class='text-danger'>$errPhone</p>";?>
-<!--					</div>-->
-<!--					<div class="form-group">-->
-<!--						<label for="Email"><i class="fa fa-envelope"></i>Email:</label>-->
-<!--						<input name="Email" type="Email" class="form-control" id="Email" placeholder="Email:" required>-->
-<!--						<p class='text-danger'>--><?php //echo $errEmail; ?><!--</p>-->
-<!--					</div>-->
-<!--					<div class="form-group">-->
-<!--						<label for="Message"><i class="fa fa-pencil"></i>Message:</label>-->
-<!--						<textarea name="Message" col="6" class="form-control" placeholder="Message:"></textarea required>-->
-<!--					</div>-->
-<!--					<input id="Submit" name="Submit" type="Submit" value="Submit" class="btn btn-primary">-->
-<!--					<div class="form-group">-->
-<!--						<div class="col-sm-10 col-sm-offset-2">-->
-<!--							--><?php //echo $results; ?>
-<!--						</div>-->
-<!--					</div>-->
-<!---->
-<!--				</form>-->
 
-<!--				--><?php
-//				}
-//				?>-->
 			</div>
 		</div>
 	</div>
