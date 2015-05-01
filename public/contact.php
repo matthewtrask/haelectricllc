@@ -75,19 +75,19 @@ include('includes/nav.php');
 
 				<form action="//formspree.io/adamrezek@haelectricllc.com" method="POST">
 					<div class="form-group">
-						<label>Name</label>
+						<label><i class="fa fa-user"></i>Name</label>
 						<input type="text" name="name" placeholder="name" class="form-control">
 					</div>
 					<div class="form-group">
-						<label>Phone</label>
+						<label><i class="fa fa-phone"></i>Phone</label>
 						<input type="text" name="phone" placeholder="phone" class="form-control">
 					</div>
 					<div class="form-group">
-						<label>Email</label>
+						<label><i class="fa fa-envelope"></i>Email</label>
 						<input type="email" name="_replyto" placeholder="email@email.com" class="form-control">
 					</div>
 					<div class="form-group">
-						<label>Message</label>
+						<label><i class="fa fa-pencil"></i>Message</label>
 						<textarea type="text" name="message" placeholder="message" class="form-control"></textarea>
 					</div>
 					<input class="btn btn-primary" type="submit" value="Send">
