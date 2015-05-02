@@ -9,7 +9,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <link rel="canonical" href="http://haelectricllc.com/">
         <title><?php echo $pageTitle; ?> | <?php echo $siteTitle; ?></title>
-        <meta name="description" content="">
+        <meta name="description" content="HA Electric LLC. Mobile Electric Work. Specializes in LED, Data Wiring, Electrical Lighting, Bar and Restaurant enhancement">
         <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
 
         <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
