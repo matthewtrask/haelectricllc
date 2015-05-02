@@ -33,7 +33,7 @@ include('includes/comments.php');
                     ?></p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7" id="testimonialsImage">
-                <img src="img/Testimonials.jpg" alt="" class="img-responive center-block"  height="100%" width="100%">
+                <img src="img/Testimonials.jpg" alt="HA Electric LLC LED Electric Lighting Bar Restaurant Salon Work" class="img-responive center-block"  height="100%" width="100%">
             </div>
         </div>
     </div>
