@@ -53,13 +53,13 @@ include('includes/nav.php');
                 <!-- Wrapper for Slider -->
                 <div class="carousel-inner">
                     <div class="item active">
-                        <img src="img/barled.JPG" alt="" class="img-responsive center-block">
+                        <img src="img/barled.JPG" alt="HA Electric LLC LED Lighting Bar Restaurant Enhancement Lighting" class="img-responsive center-block">
                     </div>
                     <div class="item">
-                        <img src="img/electricwork.png" alt="" class="img-responsive center-block">
+                        <img src="img/electricwork.png" alt="HA Electric LLC Data Wiring Low Voltage Work" class="img-responsive center-block">
                     </div>
                     <div class="item">
-                        <img src="img/ledwork.png" alt="" class="img-responsive center-block">
+                        <img src="img/ledwork.png" alt="HA Electric LLC LED Window Panes Lighting Enhacement" class="img-responsive center-block">
                     </div>
 <!--                     <div class="item">
                         <img alt="" src="" class="img-responsive center-block">
@@ -75,7 +75,7 @@ include('includes/nav.php');
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <h2 class="text-center"><i class="fa fa-bolt"></i>Electrical Services - Electrical Contracting</h2><hr />
-                    <img src="img/electricalservices.jpg" class="img-responsive center-block">
+                    <img src="img/electricalservices.jpg" alt="HA Electric LLC Fans Outlets Lighting Cable Wiring" class="img-responsive center-block">
                     <div style="height: 20px">
                     </div>
                     <h4 class="text-left">HA Electric LLC provides a wide range of residential and commercial electrical services</h4>
@@ -123,7 +123,7 @@ include('includes/nav.php');
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <h2 class="text-center"><i class="fa fa-circle-o-notch"></i>LED Lighting</h2><hr />
-                    <img src="img/ledpanel.jpg" class="center-block img-responsive">
+                    <img src="img/ledpanel.jpg" alt="HA Electric LLC Bar Restaurant Lighting improvements Enahcements LED Signs Signage" class="center-block img-responsive">
                     <div style="height: 20px">
                     </div>
                     <h4 class="text-left">HA ELECTRIC LLC can design, install, service and maintain LED lighting. We install from LED bulbs to LED strips and LED slim light panels. We can custom build LED slim light panels for your bar top, furniture, shelves, walls, floors and ceiling.</h4>
@@ -158,7 +158,7 @@ include('includes/nav.php');
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <h2 class="text-center"><i class="fa fa-random"></i>Data/Low Voltage</h2><hr />
-                    <img src="img/datawiring.jpg" class="img-responsive center-block">
+                    <img src="img/datawiring.jpg" alt="HA Electric LLC Outlets Data wiring Low Voltage Wiring Upgrades" class="img-responsive center-block">
                     <div style="height: 20px">
                     </div>
                     <h4 class="text-left">We are low-voltage licensed and offer a wide range of low-voltage services:</h4>
@@ -192,7 +192,7 @@ include('includes/nav.php');
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <h2 class="text-center"><i class="fa fa-building-o"></i></i>Restaurant &amp; Bar</h2><hr />
-                    <img src="img/barled1.jpg" class="center-block img-responsive">
+                    <img src="img/barled1.jpg" alt="HA Electric LLC Restaurant Bar Upgrades Enhancments Lighting LED Bar " class="center-block img-responsive">
                     <div style="height: 20px">
                     </div>
                     <h4 class="text-left">HA ELECTRIC LLC has been helping restaurant and bar owners and operators with electrical needs for past 10 years. We specialize in wiring, service, upgrades, maintenance and lighting design. Our electricians and service team is highly qualified to service any electrical problem.</h4>
