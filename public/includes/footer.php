@@ -19,7 +19,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                <p>HA Electric LLC<br />678-527-8292<br />11175 Cicero Dr. Suite 100<br /><a href="mailto: adamrezek@haelectricllc.com?subject=Request a Consultation">Contact Us</a></p>
+                <p>HA Electric LLC<br />Phone: 678-527-8292<br />Fax: 770-559-3705<br />5891 New Peachtree Rd. Ste# 117, Doraville, GA 30340<br /><a href="mailto: adamrezek@haelectricllc.com?subject=Request a Consultation">Contact Us</a></p>
             </div>
             <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                 <p class="text-center">&copy; <?php echo date("Y") ?> HA Electric LLC<br /> <?php include('counter.php'); ?></p>
